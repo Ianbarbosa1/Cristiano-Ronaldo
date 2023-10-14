@@ -1,7 +1,7 @@
 @media screen and (min-width: 350px) and (max-width: 600px){
 
     body {
-        width: 700px;
+        width:100%;
     }
     .titulo {
         font-size: 20px;
@@ -41,7 +41,7 @@
 @media screen and (min-width: 610px) and (max-width: 900px){
 
     body {
-        width: 900px;
+        width: 100%;
     }
     .titulo {
         font-size: 20px;

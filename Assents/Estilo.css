@@ -1,7 +1,6 @@
 * {
     margin:0 auto;
     box-sizing: 0;
-
 }
 
 body {
@@ -20,6 +19,20 @@ body::before {
     height: 100%;
     width: 100%;
     background-color:black;
+}
+
+.tela-fundo{
+    height: 148.5vw;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.63);
+    z-index: -1;
+    position: absolute;
+}
+
+.audio audio, controls{
+    height: 25px;
+    width: 150px;
+    position: fixed;
 }
 
 .container {
@@ -132,6 +145,5 @@ li:hover .times-estadia {
     align-items: center;
     justify-content: center;
     display: flex;
-
 }
 

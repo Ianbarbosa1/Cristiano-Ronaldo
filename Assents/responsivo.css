@@ -3,6 +3,12 @@
     body {
         width:100%;
     }
+
+    .audio audio, controls{
+        height: 25px;
+        width: 50px;
+        position: fixed;
+    }
     .titulo {
         font-size: 20px;
         margin-top: 10px;
@@ -36,12 +42,20 @@
         width: 250px;
         
     }
+
+    .tela-fundo{
+        height: 300vw;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.63);
+        z-index: -1;
+        position: absolute;
+    }
 }
 
 @media screen and (min-width: 610px) and (max-width: 900px){
 
     body {
-        width: 100%;
+        width: 900px;
     }
     .titulo {
         font-size: 20px;
@@ -76,5 +90,14 @@
         width: 350px;
         
     }
+
+    .tela-fundo{
+        height: 300vw;
+        width: 100vh;
+        background-color: rgba(0, 0, 0, 0.63);
+        z-index: -1;
+        position: absolute;
+    }
+}
 }
 

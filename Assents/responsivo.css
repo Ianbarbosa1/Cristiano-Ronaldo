@@ -13,9 +13,14 @@
         padding: 10px;
     }
 
+    .container-externo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     /*CONTAINER INTERNO*/    
     .container{
-        width:100% ;
+        width: 390px;
     }
 
     /*TITULO E IMAGEM INICIAIS*/
@@ -74,12 +79,12 @@
     }
     .imgs-secundaria img {
         border-radius: 30px;
-        height: 150px;
-        width: 250px;
+        height: 130px;
+        width: 180px;
     }
 }
 
-@media screen and (min-width: 610px) and (max-width: 900px){
+@media screen and (min-width: 601px) and (max-width: 900px){
     /*FUNDO ESCURO*/
     .tela-fundo{
         height: 250vw;

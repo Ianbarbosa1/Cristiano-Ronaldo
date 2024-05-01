@@ -82,7 +82,7 @@ body::before {
 .nomes-times {
     list-style: none;    
     gap:10px;
-    width: 700px;
+    width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;

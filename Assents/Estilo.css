@@ -1,13 +1,15 @@
 * {
-    margin:0 auto;
+    margin:0;
     box-sizing: 0;
 }
 
+/*CORPO*/
 body {
     color: rgb(255, 255, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/*IMAGEM DO FUNDO*/
 body::before {
     background-image: url(../imagens/img-fundo.jpeg);
     content:"";
@@ -21,20 +23,23 @@ body::before {
     background-color:black;
 }
 
+/*FUNDO PRETO*/
 .tela-fundo{
-    height: 148.5vw;
+    height: 315%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.63);
     z-index: -1;
     position: absolute;
 }
 
-.audio audio, controls{
-    height: 25px;
-    width: 150px;
-    position: fixed;
+/*CONTAINER CONTROLADOR*/
+.container-supremo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/*CONTAINER INTERNO*/
 .container {
     display: flex;
     align-items: center;
@@ -43,6 +48,7 @@ body::before {
     width: 990px;
 }
 
+/*TITULO CR7 AND IMG*/
 .titulo {
     text-decoration:underline #d9ad26;
     padding: 2px;
@@ -51,7 +57,6 @@ body::before {
     letter-spacing: 2px;
     font-size: 36px;
 }
-
 .imagem img {
     margin-top: 100px;
     height: 300px ;
@@ -59,6 +64,7 @@ body::before {
     border-radius: 30px;
 }
 
+/*TODOS OS PARAGRAFOS*/
 .paragrafo {
     text-align: center;
     font-size: 25px;
@@ -66,14 +72,26 @@ body::before {
     font-weight:500;
 }
 
-
-/* SOBRE OS TIMES */
+/* SOBRE OS TIMES*/
+.descricao-time {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .nomes-times {
-    list-style: none;
-    width: 250px;
+    list-style: none;    
+    gap:10px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 300px;
+    padding: 0;
 }
 .times {
-    display: block;
+    display: flex;
     text-decoration: none;
     text-align: center;
     justify-content: center;
@@ -82,45 +100,36 @@ body::before {
     border-radius: 20px;
     width: 200px;
     height: 30px;
-    background-color: black;
+    background-color: rgba(54, 48, 48, 0.555);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px 0px;
-    text-decoration: underline solid white;
 }
 nav li a:hover {
-    background-color: rgb(216, 31, 7);
+    background-color: rgba(231, 231, 231, 0.61);
     transition:.0s;
 }
 .times-estadia {
     text-align: center;
     font-family:cursive;
-    font-size: 14px;
-    width: 250px;
-    height: 16px;
-    background-color:rgba(0, 0, 0, 0.8);
-    border-radius: 20px;
+    font-size: 13px;
+    height: 17px;
+    background-image: linear-gradient( to right , rgb(157,24,35), rgb(28,69,47));
     margin-top: 3px;
-    display: none;
-}
-li:hover .times-estadia {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .area-times{
     height: 50px;
 }
-.descricao-time {
-    margin-bottom: 50px;
-    gap:10px;
-    padding: 20px;
-}
 
-/* Imagens */
+/*IMAGENS DO CR7*/
 .imgs-secundaria {
-    display: flex;
-    height: 200px;
-    width: 280px;
+    display: flex ;
     justify-content: center;
-    margin-bottom: 200px;
+    align-items: center;
+    height: 350px;
+    margin-bottom: 150px;
     margin-top: 20px;
     padding: 2px;
     gap: 10px;
@@ -128,17 +137,16 @@ li:hover .times-estadia {
 .imgs-secundaria img {
     border-radius: 30px;
     height: 250px;
-    width: 450px;
+    width: 350px;
 }
 
-
+/*RODAPÉ*/
 .rodape{
     height: 50px;
-    background-color: rgba(0, 0, 0, 0.603);
-    backdrop-filter: blur 10px;
     text-align: center;
     color: rgb(0, 174, 255);
     align-items: center;
     justify-content: center;
     display: flex;
+    font-family: cursive;
 }

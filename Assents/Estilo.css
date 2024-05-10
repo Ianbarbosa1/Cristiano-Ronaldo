@@ -53,7 +53,7 @@ body::before {
     text-decoration:underline #d9ad26;
     padding: 2px;
     margin-top: 50px;
-    font-family:cursive, 'Kalam', cursive;
+    font-family:'kalam', cursive;
     letter-spacing: 2px;
     font-size: 36px;
 }
@@ -110,7 +110,7 @@ nav li a:hover {
 }
 .times-estadia {
     text-align: center;
-    font-family:cursive, 'Kalam', cursive;
+    font-family:'kalam', cursive;
     font-size: 13px;
     height: 17px;
     background-image: linear-gradient( to right , rgb(157,24,35), rgb(28,69,47));
@@ -148,5 +148,5 @@ nav li a:hover {
     align-items: center;
     justify-content: center;
     display: flex;
-    font-family:cursive, 'Kalam', cursive;
+    font-family:'kalam', cursive;
 }

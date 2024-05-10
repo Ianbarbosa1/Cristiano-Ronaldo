@@ -110,7 +110,7 @@ nav li a:hover {
 }
 .times-estadia {
     text-align: center;
-    font-family:cursive;
+    font-family:cursive, 'Kalam', cursive;
     font-size: 13px;
     height: 17px;
     background-image: linear-gradient( to right , rgb(157,24,35), rgb(28,69,47));
@@ -148,5 +148,5 @@ nav li a:hover {
     align-items: center;
     justify-content: center;
     display: flex;
-    font-family: cursive;
+    font-family:cursive, 'Kalam', cursive;
 }

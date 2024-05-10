@@ -40,14 +40,9 @@
     }
 
     /* SOBRE OS TIMES*/
-    .nomes-times {
-        list-style: none;    
+    .nomes-times {   
         gap:10px;
         width: 350px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
         height: 250px;
         padding: 0;
     }
@@ -55,14 +50,13 @@
         font-size: 12px;
         width: 110px;
         height: 20px;
-        padding:5px 0px;
+        padding:10px 0px;
+        text-align: center;
     }
     .times-estadia {
-        text-align: center;
         width: 110px;
         font-size: 10px;
         height: 28px;
-        background-image: linear-gradient( to right , rgb(157,24,35), rgb(28,69,47));
         margin-top: 3px;
         border-radius: 10px;
     }
@@ -142,3 +136,4 @@
         width: 350px;
     }
 }
+

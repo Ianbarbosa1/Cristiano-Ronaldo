@@ -1,12 +1,4 @@
 @media screen and (min-width: 350px) and (max-width: 600px){
-    /*FUNDO ESCURO*/
-    .tela-fundo{
-        height: 250vw;
-        width: 100%;
-        background-color: rgba(0, 0, 0, 0.63);
-        z-index: -1;
-        position: absolute;
-    }
 
     /*CONTAINER CONTROLADOR*/
     .container-supremo{
@@ -79,15 +71,9 @@
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px){
-    /*FUNDO ESCURO*/
-    .tela-fundo{
-        height: 250vw;
-        width: 100%;
-    }
-    
     /*CORPO DA PÁGINA*/
     body {
-        width: 900px;
+        width: 100%;
     }
 
     /*CONTAINER CONTROLADOR*/
@@ -117,6 +103,7 @@
         display: flex;
         justify-content:center;
         align-items: center;
+        width: 600px;
     }
 
     /* SOBRE OS TIMES*/
@@ -126,6 +113,11 @@
         width: 150px;
         height: 20px;
     }
+    .nomes-times { 
+        width: 600px;
+        height: 300px;
+        margin-top: 10px;
+    }
 
     /*IMAGENS CR7*/
     .imgs-secundaria {
@@ -133,7 +125,61 @@
     }
     .imgs-secundaria img {
         height: 170px;
-        width: 350px;
+        width: 280px;
     }
 }
 
+@media screen and (min-width: 901px) and (max-width: 1300px){ 
+    /*CORPO DA PÁGINA*/
+    body {
+        width: 100%;
+    }
+
+    /*CONTAINER INTERNO*/
+    .container{ 
+        width:100%;
+    }
+
+    /*TITULO E IMAGEM INICIAL*/
+    .titulo {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .imagem img {
+        height: 250px;
+        margin-top:5px;
+        margin-bottom: 5px;
+    }
+
+    /*PARAGRAFOS*/
+    .paragrafo {
+        font-size: 17px;        
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        width: 700px;
+        height: 180px;
+    }
+
+    /* SOBRE OS TIMES*/
+    .times {
+        font-size: 17px;
+        padding: 7px 2px 11px 2px;
+        width: 200px;
+        height: 20px;
+    }
+    .nomes-times {    
+        width:700px;
+        height: 250px;
+        margin-top: 20px;
+    }
+
+    /*IMAGENS CR7*/
+    .imgs-secundaria {
+        margin-bottom: 0;
+    }
+    .imgs-secundaria img {
+        height: 200px;
+        width: 350;
+    }
+}

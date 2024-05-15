@@ -3,7 +3,6 @@
     box-sizing: 0;
 }
 
-/*CORPO*/
 body {
     color: rgb(255, 255, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -84,7 +83,7 @@ body::before {
     align-items: center;
     flex-wrap: wrap;
     height: 300px;
-    padding: 0;
+    padding: 0px;
     background-color: rgba(0, 0, 0, 0.63);
     border-bottom-left-radius:30px;
     border-bottom-right-radius:30px;
